@@ -32,12 +32,11 @@ Asegúrate de tener instalados los siguientes programas en tu sistema:
 1. Clona el repositorio del proyecto en tu máquina local:
 ```bash
 git clone https://github.com/tu_usuario/contact-manager.git
-cd contact-manager
 ```
 
 2. Instala las dependencias del backend (Express):
 ```bash
-cd backend
+cd contact_manager_api
 npm install
 ```
 
@@ -62,7 +61,7 @@ npm start
 6. Instala las dependencias del frontend (Angular):
 
 ```bash
-cd ../frontend
+cd ../contact_manager_front
 npm install
 ```
 7. Inicia el servidor de desarrollo de Angular:
