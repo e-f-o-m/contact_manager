@@ -9,11 +9,12 @@ Este es un proyecto de gestión de contactos, desarrollado con **Express**, **My
 
 ## Diagramas del Proyecto
 
-1. **Diagrama de Clases**:
-   ![Diagrama de Clases](https://github.com/e-f-o-m/contact_manager/blob/main/digrama_clases.png)
 
-2. **Modelo Entidad-Relación (ERD)**:
-   ![Modelo Entidad-Relación](https://github.com/e-f-o-m/contact_manager/blob/main/MER_libreta_contactos.png)
+1. **Diagrama de Clases**:
+![Diagrama de Clases](https://github.com/e-f-o-m/contact_manager/blob/main/digrama_clases.png)
+
+3. **Modelo Entidad-Relación (ERD)**:
+![Modelo Entidad-Relación](https://github.com/e-f-o-m/contact_manager/blob/main/MER_libreta_contactos.png)
    
 
 ## Requisitos Previos
