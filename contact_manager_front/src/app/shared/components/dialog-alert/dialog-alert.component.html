@@ -1,0 +1,32 @@
+@if(data){
+  <div class="container_main">
+      <div class="toast__container" [ngClass]="'update'+2"
+          [style]="'animation: popup '+2+'s linear both'">
+          <div class="toast__cell">
+
+              <div class="toast"
+                  [ngClass]="data.type=='success'? 'toast__green':'' && data.type=='info'? 'toast__blue':'' && data.type=='warning'? 'toast__yellow':''">
+                  <div class='toast__icon'>
+                      <div class="icon" [ngStyle]="{
+                      'background': color[data.type]?.color,
+                      'width': '1.3rem',
+                      'height': '1.3rem',
+                          'mask': 'url(' + color[data.type]?.icon + ') no-repeat center', 
+                          '-webkit-mask': 'url(' + color[data.type]?.icon + ') no-repeat center'
+                      }">
+                      </div>
+
+                  </div>
+                  <div class='toast__content'>
+                      <p class='toast__type'>{{data.title}}</p>
+                      <p class='toast__message'>{{data.message}}</p>
+                  </div>
+                  <div class='toast__close'>
+                      <span>x</span>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+}
