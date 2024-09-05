@@ -59,14 +59,12 @@ npm start
 6. Instala las dependencias del frontend (Angular):
 
 ```bash
-Copiar código
 cd ../frontend
 npm install
 ```
 7. Inicia el servidor de desarrollo de Angular:
 
 ```bash
-Copiar código
 ng serve
 ```
 ## Uso
