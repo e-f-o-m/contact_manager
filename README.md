@@ -42,7 +42,7 @@ npm install
 
 3. Configura la base de datos en MySQL:
 Crea una base de datos llamada contact_manager.
-Carga las tablas utilizando el archivo SQL proporcionado o ejecuta los comandos SQL en schema.sql.
+Carga las tablas utilizando el archivo SQL proporcionado en la ruta **/contact_manager/contact_manager_api/db.sql.**
 
 4. Configura las variables de entorno en el backend (.env):
 ```bash
